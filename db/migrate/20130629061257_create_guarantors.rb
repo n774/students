@@ -7,7 +7,7 @@ class CreateGuarantors < ActiveRecord::Migration
       t.string :address
       t.integer :tel
       t.string :relationship
-
+      t.integer :lock_version, :default => 0
       t.timestamps
     end
   end
