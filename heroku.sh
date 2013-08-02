@@ -29,7 +29,9 @@ case ${TRAVIS_BRANCH} in
 	heroku keys:clear
 	yes | heroku keys:add
 	yes | git push -f heroku HEAD:master
+	heroku pg:reset DATABASE --confirm studentsmanager
 	heroku run rake db:migrate
+	heroku run rake db:seed
 	heroku restart
 	;;
 
