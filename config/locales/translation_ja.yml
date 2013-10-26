@@ -82,10 +82,7 @@ ja:
         scholarship_division: 奨学金区分 #g
         second_term_reduction: 後期減免 #g
         transfer_request: 振替依頼書 #g
-<<<<<<< HEAD
-=======
         student_list: 学生情報
->>>>>>> origin/master
 
       student_list:
         PBL_1st: PBL前期 #g
