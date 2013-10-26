@@ -34,7 +34,7 @@ ja:
       association_teacher:
         association_pbl: :activerecord.models.association_pbl  #g
         name: name  #g
-        
+
       exam_list: 
         basic_knowledge: IT基礎知識  #g
         citizen_of_tokyo: 都民  #g
@@ -72,8 +72,7 @@ ja:
         scholarship_division: 奨学金区分 #g
         second_term_reduction: 後期減免 #g
         transfer_request: 振替依頼書 #g
-        
-              
+
       student_list:
         PBL_1st: PBL前期 #g
         PBL_2nd: PBL後期 #g
