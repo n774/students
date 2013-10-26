@@ -50,10 +50,12 @@
   .field
     = f.label :memo
     = f.text_area :memo, :size=>"10x10", :class=>"span9"
+
   .field    
-    = radio_button_tag(:age, "child")
+    = radio_button_tag :age=>"child", :class=>"inline"
     = label_tag(:age_child, "I am younger than 21")
-    = radio_button_tag(:age, "adult")
+    = radio_button_tag :age=>"adult", :class=>"inline"
     = label_tag(:age_adult, "I'm over 21")
+    
   .actions
     = f.submit '保存'
