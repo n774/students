@@ -10,6 +10,9 @@
     = f.label :name
     = f.text_field :name
   .field
+    = f.label :kana_name
+    = f.text_field :kana_name
+  .field
     = f.label :birthday
     = f.date_select :birthday
   .field
@@ -17,6 +20,6 @@
     = f.text_field :gender
   .field
     = f.label :memo
-    = f.text_area :memo
+    = f.text_area :memo, :size=>"10x10", :class=>"span9"
   .actions
-    = f.submit 'Save'
+    = f.submit '保存'
