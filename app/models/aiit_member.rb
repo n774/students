@@ -8,5 +8,5 @@ class AiitMember < ActiveRecord::Base
   has_many :exam_lists
   has_many :student_lists
 
-  enumerize :gender, in: [:male, :female]
+  enumerize :gender, in: [:male, :female], default: :male
 end
