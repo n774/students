@@ -5,7 +5,7 @@ describe "aiit_members/show" do
     @aiit_member = assign(:aiit_member, stub_model(AiitMember,
       :name => "Name",
       :kana_name => "Kana Name",
-      :gender => "Gender",
+      #:gender => "Gender",
       :memo => "MyText"
     ))
   end
@@ -15,7 +15,7 @@ describe "aiit_members/show" do
     # Run the generator again with the --webrat flag if you want to use webrat matchers
     rendered.should match(/Name/)
     rendered.should match(/Kana Name/)
-    rendered.should match(/Gender/)
+    #rendered.should match(/Gender/)
     rendered.should match(/MyText/)
   end
 end
