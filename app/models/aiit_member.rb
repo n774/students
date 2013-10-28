@@ -8,5 +8,7 @@ class AiitMember < ActiveRecord::Base
   has_many :exam_lists
   has_many :student_lists
 
-  enumerize :gender, in: [:male, :female]
+  enumerize :gender, in: [:male, :female], :default => :male #lambda { |aiit_member| GenderIdentifier.gender_for_name(aiit_member.name).to_sym }
+
+  # enumerize :role, in: [:aiit_member, :admin], default: :aiit_member
 end

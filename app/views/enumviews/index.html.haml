@@ -1,0 +1,19 @@
+%h1 Listing enumviews
+
+%table
+  %tr
+    %th Gender
+    %th
+    %th
+    %th
+
+  - @enumviews.each do |enumview|
+    %tr
+      %td= enumview.gender
+      %td= link_to 'Show', enumview
+      %td= link_to 'Edit', edit_enumview_path(enumview)
+      %td= link_to 'Destroy', enumview, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Enumview', new_enumview_path

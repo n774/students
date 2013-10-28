@@ -1,0 +1,9 @@
+%p#notice= notice
+
+%p
+  %b Gender:
+  = @enumview.gender
+
+= link_to 'Edit', edit_enumview_path(@enumview)
+\|
+= link_to 'Back', enumviews_path

@@ -1,0 +1,13 @@
+= form_for @enumview do |f|
+  - if @enumview.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@enumview.errors.count, "error")} prohibited this enumview from being saved:"
+      %ul
+        - @enumview.errors.full_messages.each do |msg|
+          %li= msg
+
+  .field
+    = f.label :gender
+    = f.text_field :gender
+  .actions
+    = f.submit 'Save'
