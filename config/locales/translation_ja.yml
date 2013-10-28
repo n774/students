@@ -1,4 +1,9 @@
 ja:
+  enumerize:
+    aiit_member:
+      gender:
+        male: 男
+        female: 女
   activerecord:
     models:
       aiit_member: AIIT会員(Master)  #g
