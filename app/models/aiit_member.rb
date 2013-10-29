@@ -1,5 +1,5 @@
 class AiitMember < ActiveRecord::Base
-  extend Enumerize
+extend Enumerize
 
   attr_accessible :birthday, :kana_name, :gender, :memo, :name
 
