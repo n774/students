@@ -81,7 +81,7 @@ ja:
         beginning: 開始時間 #g
         end: 終了時間 #g
         memo: 備考 #g
-        status: 身分 #g
+        status: 種別 #g
         student_list: 学生情報
 
       tuition:
