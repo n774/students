@@ -15,7 +15,7 @@ after_success:
 deploy:
   provider: heroku
   api_key:
-    secure: IZwKN8VrDWYNaZxjYnhrxjZIa5jZfnrasUjrusOZGNMfcHAqNghCE0bePbHKI6HvE63nhAhib4/o0xNAxF8jg2/H88DhDoaBA/A6DtRNM84ZUbJDTXSIwR/nJukjsoUB2hgYo3LgZ9baJpf36YavGBueo2pX/I/uHTZYqJ6Hghc=
-  app: students
+    secure: fnURTIai3TEd78JJNCJVSaLHwOAYWRgwB+JTWXe4V9XyGwOyn9HPl+3RA/G/yKF4vVhca/3d4jtbXTYPwCWv+8ixYxgIVvjT08dYzutSce2C+ci3PBcrBBtXrccGtCbWa71Oe7S1umEj4UIY7ff/1ByFFAWiCuYVgJ+3chsPTj8=
+  app: stm1
   on:
     repo: n774/students
