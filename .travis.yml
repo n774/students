@@ -4,9 +4,7 @@ rvm:
 notifications:
   email: false
 
-script:
-- gem install bundler -v 1.4.0.pre.2 --pre
-  
+before_install: gem install bundler -v 1.4.0.pre.2 --pre
 bundler_args: -j4 --deployment 
 script:
 - bundle exec rake db:migrate
